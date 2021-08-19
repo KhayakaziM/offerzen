@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "a82b0fae-b3e2-412d-a98d-c3183a00de36",
+		"name": "assessment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "sort data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"data\":[\r\n    { \"data\":5} ,\r\n    { \"data\":3} ,\r\n    { \"data\":6} ,\r\n    { \"data\":8} ,\r\n    { \"data\":3} ,\r\n    { \"data\":7} ,\r\n    { \"data\":9} ,\r\n    { \"data\":42} \r\n       \r\n    ]\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/sort-data"
+			},
+			"response": []
+		}
+	]
+}
